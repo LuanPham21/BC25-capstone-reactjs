@@ -15,6 +15,14 @@ const routes = [
         path: "detail",
         element: lazy(() => import("./../containers/Home/DetailMovie")),
       },
+      {
+        path: "about",
+        element: lazy(() => import("./../containers/Home/About")),
+      },
+      {
+        path: "contact",
+        element: lazy(() => import("./../containers/Home/Contact")),
+      },
     ],
   },
   //Auth Page
